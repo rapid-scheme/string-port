@@ -1,0 +1,25 @@
+{
+  "name": "@rapid-scheme/string-port",
+  "version": "0.1.0",
+  "description": "Delivers characters from a string",
+  "author": "Marc Nieper-Wißkirchen <marc.nieper@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rapid-scheme/string-port.git"
+  },
+  "main": "lib/source-location.js",
+  "scripts": {
+    "traceur": "traceur --modules commonjs --dir src lib",
+    "prepublish": "npm run traceur",
+    "test": "mocha --ui tdd --compilers js:mocha-traceur"
+  },
+  "dependencies": {
+    "source-location": "rapid-scheme/source-location"
+  },
+  "devDependencies": {
+    "traceur": "latest",
+    "mocha": "latest",
+    "mocha-traceur": "latest"
+  }
+}

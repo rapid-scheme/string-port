@@ -1,5 +1,5 @@
 {
-  "name": "@rapid-scheme/string-port",
+  "name": "string-port",
   "version": "0.1.0",
   "description": "Delivers characters from a string",
   "author": "Marc Nieper-Wißkirchen <marc.nieper@gmail.com>",
